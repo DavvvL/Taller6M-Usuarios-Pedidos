@@ -5,8 +5,6 @@ from application.services.services import PedidoService
 from infrastructure.adapters.pedido_repository import InMemoryPedidoRepository
 from domain.pedido import Pedido, PedidoCreate, PedidoUpdate
 
-#Prueba
-
 app = FastAPI(title="Sistema Restaurante - Microservicios para Pedidos")
 
 # --- Dependencias ---
